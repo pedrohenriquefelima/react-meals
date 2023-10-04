@@ -1,0 +1,29 @@
+.background-welcome {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2710&q=80);
+    background-size:  100% 100%;
+}
+
+.background-welcome div  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgb(242, 236, 236);
+    opacity: 0.9;
+}
+.background-welcome div h1 {
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+}
+
+.background-welcome p {
+    padding: 10px;
+    text-align: justify;
+}

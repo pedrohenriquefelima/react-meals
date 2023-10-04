@@ -1,0 +1,31 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    background-color: blueviolet;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-container {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.widget {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+}

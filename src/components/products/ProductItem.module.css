@@ -1,0 +1,8 @@
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}

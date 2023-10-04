@@ -1,0 +1,7 @@
+.product-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 236);
+}
