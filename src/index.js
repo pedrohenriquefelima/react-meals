@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { CardContextProvider } from './store/cardContext';
+import CardProvider from './store/CardProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CardContextProvider><App /></CardContextProvider>
+    <CardProvider><App /></CardProvider>
   </React.StrictMode>
 );
 

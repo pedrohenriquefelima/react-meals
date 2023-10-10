@@ -36,13 +36,13 @@ const CardModal = (propsParent) => {
     <Modal onClose={propsParent.onHideCard}>
         <h2>Summary</h2>
         <div>
-            {ctx.cardData.map((item) => {
+            {ctx.items.map((item) => {
                 return <CardModalItem item={item} key={item.id}/>
             })}
         </div>
         <div className={styles.totals}>
             <h2>Total</h2>
-            <h3>{Math.round(ctx.total * 100) / 100}</h3>
+            <h3>{Math.round(ctx.totalAmount * 100) / 100}</h3>
         </div>
         <div className={styles['actions-modal']}>
             <Button type="button">Save</Button>

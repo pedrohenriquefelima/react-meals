@@ -8,7 +8,10 @@ const ProductItem = (props) => {
 
     function addingItemHandler(qnt) {
         console.log(qnt);
-        ctx.increaseQuantity(props.product, qnt);
+        ctx.addItem({
+            ...props.product,
+            amount: qnt
+        });
     }
 
     return <div className={styles['product-container']}>
